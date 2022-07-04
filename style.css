@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+.sajib{
+    color: orange;
+}
+section{
+    display: flex;
+    
+}
+.half{
+    width: 50%;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+.half img{
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 10%;
+    
+    
+}
+.bottom{
+    text-decoration: none;
+    background-color:orange ;
+    border-radius: 5px;
+    padding: 10px 40px;
+    
+    font-weight: 700;
+    color: rgb(11, 10, 9)
+}
+.welcome{
+    margin-top: 50px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
