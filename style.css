@@ -6,7 +6,7 @@ body{
 .sajib{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
     
@@ -49,8 +49,8 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right ;
-    padding-right: 10%;
-    padding-bottom: 25%;
+    padding-right: 0;
+    padding-bottom: 8%;
 }
 
 .hall img{
@@ -63,4 +63,34 @@ section{
     color: blueviolet;
     font-weight: 800;
     
+}
+.developer{
+    box-shadow: 20px 20px 40px grey;
+    margin: 50px;
+    padding: 5%;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.exp{
+    margin-left: 2%;
+    font-size: 40px;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid gold;
+}
+footer p{
+    text-align: center;
 }
